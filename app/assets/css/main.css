@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+
+
+  --color-default: oklch(0.99 0.002 260);
+  --color-default-foreground: oklch(0.17 0.01 260);
+
+  /* Surfaces (cards, modals, panels) */
+  --color-surface: oklch(1 0 0);
+  --color-surface-foreground: oklch(0.17 0.01 260);
+
+  --color-primary: oklch(0.58 0.19 264);
+  --color-primary-foreground: oklch(1 0 0);
+
+  --color-muted: oklch(0.96 0.004 260);
+  --color-muted-foreground: oklch(0.50 0.02 260);
+
+  --color-accent: oklch(0.70 0.15 230);
+  --color-accent-foreground: oklch(1 0 0);
+
+
+  --color-subtle: oklch(0.94 0.004 260);
+}
